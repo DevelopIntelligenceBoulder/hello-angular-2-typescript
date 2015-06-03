@@ -8,10 +8,15 @@ if (typeof __decorate !== "function") __decorate = function (decorators, target,
 };
 /**
  * Angular 2.x component written in TypeScript.
+ * Imports Component and View Angular Annotations
+ * Imports Angular bootstrapping to load the Hello Component.
+ *
+ * See the generated/compiled code within ../components/hello.js
  */
 /// <reference path="../../typings/angular2/angular2.d.ts" />
 var angular2_1 = require('angular2/angular2');
 var HelloComponent = (function () {
+    //Constructor utilized to define model properties
     function HelloComponent() {
         this.name = 'World';
     }
@@ -25,4 +30,5 @@ var HelloComponent = (function () {
     ], HelloComponent);
     return HelloComponent;
 })();
+//Bootstrapping main Angular Component
 angular2_1.bootstrap(HelloComponent);
