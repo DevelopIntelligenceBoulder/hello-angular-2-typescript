@@ -7,3 +7,6 @@ Somethings to know:
 2. This example utilizes the [JSPM](http://jspm.io/) package manager and the [SystemJS](https://github.com/systemjs/systemjs) module loader
 3. This example links to Angular's CDN to utilize a dev version [Angular 2.x](https://code.angularjs.org/2.0.0-alpha.25/angular2.dev.js)
 4. [Angular 2.x developer documentation](https://angular.io/)
+
+## What is this?
+This example shows how to take a model property defined in an Angular 2.x Component and populate it within an Angular view.
