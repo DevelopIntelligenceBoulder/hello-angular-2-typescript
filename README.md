@@ -11,6 +11,23 @@ Somethings to know:
 ## What is this?
 This example shows how to take a model property defined in an Angular 2.x Component and populate it within an Angular view.
 
+### Within the hello.ts
+This TypeScript file imports the pieces of Angular 2.x that will be utilized to build our component (i.e. the View and the Component)
+
+A component annotation is attached to the JavaScript class, marking it as an Angular component and specifying its custom tag selector.
+
+A view annotation is attached to the JavaScript class, defining the template.
+
+A model property place has been added to the component instance via `this`. Why? Components in Angular 2.0 are simply objects created via constructors.
+
+The main Angular module is bootstrapped, linking the DOM and the JavaScript of the component.
+
+### Within the index.html
+An Angular component is placed within the DOM.
+
+The module to load via SystemJS is specified (i.e. `components/hello`)
+
+
 ## Instructions 
 1. Install NodeJS
 2. Run `npm start` to get the application running on the web server
