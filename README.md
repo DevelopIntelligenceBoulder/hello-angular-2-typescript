@@ -10,3 +10,10 @@ Somethings to know:
 
 ## What is this?
 This example shows how to take a model property defined in an Angular 2.x Component and populate it within an Angular view.
+
+## Instructions 
+1. Install NodeJS
+2. Run npm start to get the application running on the web server
+    * Packages needed for this application will be installed (i.e. Angular and Express)
+    * The Node/Express Web Server will start
+3. Go to http://localhost:8080 in your web browser
