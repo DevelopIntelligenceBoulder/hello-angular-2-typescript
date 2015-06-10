@@ -29,7 +29,7 @@ The module to load via SystemJS is specified (i.e. `components/hello`)
 
 
 ## Instructions 
-1. Install [NodeJS](https://nodejs.org/)
+1. Install [NodeJS](https://nodejs.org/) 
 2. Run `npm start` to get the application running on the web server
     * Packages needed for this application will be installed (i.e. Angular and Express)
     * The Node/Express Web Server will start
