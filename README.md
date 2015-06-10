@@ -33,7 +33,7 @@ The module to load via SystemJS is specified (i.e. `components/hello`)
 2. Run `npm start` to get the application running on the web server
     * Packages needed for this application will be installed (i.e. Angular and Express)
     * The Node/Express Web Server will start
-3. Go to `http://localhost:8080` in your web browser
+3. Go to `http://localhost:8080/src` in your web browser
 
 ## How to utilize the TypeScript Compiler
 This application was created via [WebStorm](https://www.jetbrains.com/webstorm/) on OSx
