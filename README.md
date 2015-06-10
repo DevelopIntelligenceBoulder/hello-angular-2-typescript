@@ -1,5 +1,5 @@
 # hello-angular-2-typescript
-A simple example of Hello World in Angular 2.x coded in [Microsoft's TypeScript](http://www.typescriptlang.org/).
+A simple example of Hello World in [Angular 2.x](https://angular.io/) coded in [Microsoft's TypeScript](http://www.typescriptlang.org/).
 
 Somethings to know:
 
@@ -29,7 +29,7 @@ The module to load via SystemJS is specified (i.e. `components/hello`)
 
 
 ## Instructions 
-1. Install NodeJS
+1. Install [NodeJS](https://nodejs.org/)
 2. Run `npm start` to get the application running on the web server
     * Packages needed for this application will be installed (i.e. Angular and Express)
     * The Node/Express Web Server will start
