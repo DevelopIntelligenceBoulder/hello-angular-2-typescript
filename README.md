@@ -52,6 +52,7 @@ This application was created via [WebStorm](https://www.jetbrains.com/webstorm/)
     * Install TypeScript definitions via `npm install -g tsd`
     * Install the Angular 2.x specific tsd via `tsd query angular2 --action install`
     * Include a link to the type definitions that were brought in via `tsd` at the top of the AngularJS component file: `/// <reference path="../../typings/angular2/angular2.d.ts" />`
+4. Try out the code in this [Plunker](http://plnkr.co/edit/B0uPk3?p=preview)
     
 ##Where to go from here?
 [DevelopIntelligence](http://www.developintelligence.com/) offers a variety of [classes on Angular](http://www.developintelligence.com/catalog/web-development-training/angularjs). Check out [Advanced AngularJS](http://www.developintelligence.com/catalog/web-development-training/angularjs/advanced-angularjs-development) or the [AngularJS Boot Camp](http://www.developintelligence.com/catalog/web-development-training/angularjs/angularjs-boot-camp) to get your team up to speed.
