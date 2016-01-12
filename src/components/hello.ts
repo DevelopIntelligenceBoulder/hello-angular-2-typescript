@@ -5,17 +5,14 @@
  *
  * See the generated/compiled code within ../components/hello.js
  */
-/// <reference path="../../typings/angular2/angular2.d.ts" />
-import {Component, View, bootstrap} from 'angular2/angular2';
+import { Component } from "angular2/core";
 
 @Component({
-    selector: 'di-hello'
-})
-@View({
+    selector: 'di-hello',
     template: '<h1>Hello {{ name }}</h1>'
 })
 //Creating HelloComponent via Typescript Class syntax
-class HelloComponent {
+export class HelloComponent {
     //Defining name model property as a string
     name: string;
 
@@ -24,6 +21,3 @@ class HelloComponent {
         this.name = 'World';
     }
 }
-
-//Bootstrapping main Angular Component
-bootstrap(HelloComponent);

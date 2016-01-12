@@ -15,5 +15,10 @@
   "homepage": "https://github.com/DevelopIntelligenceBoulder/hello-angular-2-typescript",
   "devDependencies": {
     "express": "^4.12.4"
+  },
+  "dependencies": {
+    "angular2": "^2.0.0-beta.1",
+    "rxjs": "^5.0.0-beta.0",
+    "systemjs": "^0.19.15"
   }
 }

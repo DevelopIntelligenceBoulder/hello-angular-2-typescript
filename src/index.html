@@ -6,10 +6,21 @@
     <body>
         <di-hello></di-hello>
 
-        <script src="https://github.jspm.io/jmcriffey/bower-traceur-runtime@0.0.87/traceur-runtime.js"></script>
-        <script src="https://jspm.io/system@0.16.js"></script>
-        <script src="https://code.angularjs.org/2.0.0-alpha.31/angular2.dev.js"></script>
+        <script src="/node_modules/angular2/bundles/angular2-polyfills.js"></script>
+        <script src="/node_modules/systemjs/dist/system.src.js"></script>
+        <script src="/node_modules/rxjs/bundles/Rx.js"></script>
+        <script src="/node_modules/angular2/bundles/angular2.dev.js"></script>
+
         <!-- System JS to load the Hello Module -->
-        <script>System.import('components/hello');</script>
+        <script>
+            System.config({
+                map: {
+                    app: "./components"
+                },
+                format: 'register',
+                defaultExtension: 'js'
+            });
+            System.import('bootstrap.js');
+        </script>
     </body>
 </html>

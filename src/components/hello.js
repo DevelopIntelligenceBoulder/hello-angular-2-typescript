@@ -1,10 +1,8 @@
-if (typeof __decorate !== "function") __decorate = function (decorators, target, key, desc) {
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") return Reflect.decorate(decorators, target, key, desc);
-    switch (arguments.length) {
-        case 2: return decorators.reduceRight(function(o, d) { return (d && d(o)) || o; }, target);
-        case 3: return decorators.reduceRight(function(o, d) { return (d && d(target, key)), void 0; }, void 0);
-        case 4: return decorators.reduceRight(function(o, d) { return (d && d(target, key, o)) || o; }, desc);
-    }
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 /**
  * Angular 2.x component written in TypeScript.
@@ -13,22 +11,18 @@ if (typeof __decorate !== "function") __decorate = function (decorators, target,
  *
  * See the generated/compiled code within ../components/hello.js
  */
-/// <reference path="../../typings/angular2/angular2.d.ts" />
-var angular2_1 = require('angular2/angular2');
+var core_1 = require("angular2/core");
 var HelloComponent = (function () {
     //Constructor utilized to define model properties
     function HelloComponent() {
         this.name = 'World';
     }
     HelloComponent = __decorate([
-        angular2_1.Component({
-            selector: 'di-hello'
-        }),
-        angular2_1.View({
+        core_1.Component({
+            selector: 'di-hello',
             template: '<h1>Hello {{ name }}</h1>'
         })
     ], HelloComponent);
     return HelloComponent;
 })();
-//Bootstrapping main Angular Component
-angular2_1.bootstrap(HelloComponent);
+exports.HelloComponent = HelloComponent;
