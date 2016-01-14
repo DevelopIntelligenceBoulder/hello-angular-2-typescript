@@ -1,3 +1,7 @@
+/**
+ * Angular 2.x component bootstrapping.
+ * Imports Angular bootstrapping to load the Hello Component.
+ */
 var browser_1 = require("angular2/platform/browser");
 var hello_js_1 = require("./components/hello.js");
 //Bootstrapping main Angular Component

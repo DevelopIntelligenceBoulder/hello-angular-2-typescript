@@ -7,7 +7,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 /**
  * Angular 2.x component written in TypeScript.
  * Imports Component and View Angular Annotations
- * Imports Angular bootstrapping to load the Hello Component.
  *
  * See the generated/compiled code within ../components/hello.js
  */
